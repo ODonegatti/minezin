@@ -33,5 +33,9 @@
 /crash-reports/
 /debug/
 
+# Windows portable launcher: downloaded binary and private launcher/game data.
+/packaging/windows-portable/horizon-launcher.exe
+/packaging/windows-portable/data/
+
 # Release-only compiled original exporter bundle.
 /exporters/

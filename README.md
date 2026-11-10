@@ -34,6 +34,13 @@ Get **the Horizon launcher** from [playhorizon.dev](https://playhorizon.dev) or 
 
 **You need** a Microsoft account that owns Java Edition ([why](docs/microsoft-account.md)) and a GPU with Vulkan or OpenGL 3.3 (Linux), Vulkan or DirectX 12 (Windows), or a Mac (Apple Silicon, or Intel from the next Nightly). An existing Minecraft install (official launcher, Prism, MultiMC...) is reused; without one, Play downloads 26.3 from Mojang for your account. Step by step: [Install and first launch](https://playhorizon.dev/docs/install).
 
+### Windows portable (one click)
+
+Open [`packaging/windows-portable`](packaging/windows-portable) and run
+`Instalar-e-Iniciar.cmd`. It downloads the current official Windows x64 launcher, verifies the
+release SHA-256, and keeps launcher settings, downloads and worlds inside that folder. It also
+applies the short MinGW include-path workaround used by native mods on deeply nested Windows paths.
+
 <table>
   <tr>
     <td width="50%"><img src="docs/media/launcher-play.webp" alt="The launcher's Home page: the selected instance ready to play, the version picker, Join a friend and the instance's tabs"></td>
